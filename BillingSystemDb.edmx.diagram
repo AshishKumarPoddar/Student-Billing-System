@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2f70f836f96242f9881fd44c653e68fd" Name="Diagram1">
+        <EntityTypeShape EntityType="BillingSystemModel.Bill" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BillingSystemModel.CustomerDetail" Width="1.5" PointX="8.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BillingSystemModel.Item" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BillingSystemModel.PriceofItem" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="BillingSystemModel.FK_Bill_Items" ManuallyRouted="false" />
+        <AssociationConnector Association="BillingSystemModel.FK_Items_PriceofItem" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
